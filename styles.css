@@ -11,7 +11,6 @@ body {
     padding: 20px 0px;
     flex-direction: column;
     gap: 100px;
-
 }
 
 .one-container,
@@ -83,6 +82,35 @@ body {
     flex: 1;
     background-color: grey;
 
+}
+
+.two-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15%;
+    gap: 50px;
+    border: solid red 2px;
+}
+
+.two-top {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+    border: solid red 2px;
+}
+
+.two-array {
+    display: flex;
+    gap: 50px;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.array-element {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {

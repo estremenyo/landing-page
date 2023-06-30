@@ -3,17 +3,18 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    font-family: sans-serif;    
 }
 
-.main-one-hero {
+.one-container {
     display: flex;
-    justify-content: space-around;
     padding: 20px 0px;
     flex-direction: column;
-    gap: 20px;
+    gap: 100px;
+
 }
 
-.main-one-hero,
+.one-container,
 .footer {
     background-color: #1f2937;
     color: white;
@@ -21,24 +22,83 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 10%;
 }
 
-.hero-text {
-    display: flex;
-    justify-content: center;
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+
 }
 
-ul {
+.header-links {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
+    align-self: center;
+
+}
+
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+    padding-bottom: 100px;
+}
+
+
+.hero-left-subtext,
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.hero-left-main {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.hero-left-subtext {
+    padding-right: 50px;
+    
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: grey;
+
 }
 
 .footer {
     display: flex;
     margin-top: auto;
     justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-weight: bold;
 }

@@ -87,31 +87,48 @@ body {
 .two-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 50px 15%;
     gap: 50px;
-    border: solid red 2px;
 }
 
 .two-top {
     text-align: center;
-    font-weight: bold;
     font-size: 36px;
     font-weight: 1000;
     color: #1f2937;
-    border: solid red 2px;
 }
 
 .two-array {
     display: flex;
-    gap: 50px;
-    flex: 1;
+    gap: 5%;
     justify-content: space-evenly;
+    height: 300px;
+    width: 100%;    
+    align-items: center;
 }
 
 .array-element {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
 }
+
+.array-placeholder {
+    border: solid 5px #3882f6;
+    border-radius: 15px;
+    width: 100%;
+    flex: 1;
+}
+
+.array-text {
+    color: grey;
+    text-align: center;
+}
+
 
 .footer {
     display: flex;

@@ -130,6 +130,22 @@ body {
 }
 
 
+.three-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 75px 15%;
+}
+
+.three-quote {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.three-byline {
+    align-self: flex-end;
+}
+
 .footer {
     display: flex;
     margin-top: auto;

@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-one-hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-one-hero,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+}

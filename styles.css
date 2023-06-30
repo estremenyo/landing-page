@@ -152,6 +152,15 @@ body {
     font-size: 1.5em;
 }
 
+
+.four-container {
+    margin: 80px 10%;
+    padding: 100px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: white;
+}
+
 .footer {
     display: flex;
     margin-top: auto;
